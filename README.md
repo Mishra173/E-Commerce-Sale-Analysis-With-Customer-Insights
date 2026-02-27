@@ -2,7 +2,7 @@
 
 ##  Project Overview
 
-This project presents an end-to-end analysis of e-commerce sales data to uncover revenue trends, customer behavior, and regional performance.
+This project presents an end-to-end analysis of e-commerce sales data to uncover revenue trends, regional performance.
 
 The workflow includes:
 - Data Cleaning & Exploratory Data Analysis (EDA) using Python
@@ -13,24 +13,27 @@ The workflow includes:
 
 ##  Tools & Technologies
 
-- Python (Pandas, Matplotlib, Seaborn)
-- SQL (MySQL)
+- Python (Pandas, NumPy)
+- Matplotlib & Seaborn (Exploratory Data Analysis)
+- MySQL
+- SQLAlchemy (with PyMySQL)
 - Power BI
 - DAX
-- Data Modeling
-- Data Visualization
 
 
 
-##  Data Cleaning & EDA (Python)
+##  Project Workflow
 
-- Handled missing values and inconsistent data
-- Performed data transformation using Pandas
-- Conducted exploratory data analysis
-- Created revenue trends, distribution plots, and correlation analysis using Matplotlib & Seaborn
+###  1. Data Cleaning & Processing (Python)
+- Loaded dataset using Pandas
+- Handled missing values
+- Created derived columns (Revenue, Year, Month, YearMonth)
+- Performed Exploratory Data Analysis using Matplotlib & Seaborn
+- Prepared structured dataset for database storage
 
 
-##  SQL Analysis
+
+## 2. SQL Analysis
 
 Performed business-focused analysis using SQL:
 
@@ -42,9 +45,9 @@ Performed business-focused analysis using SQL:
 - Repeat Customer Identification
 - Generated actionable insights and recommendations
 
----
 
-## 📊 Power BI Dashboard Features
+
+## 3. Power BI Dashboard Features
 
 - Total Revenue & YTD KPI
 - Total Orders & Total Customers KPI
