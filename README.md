@@ -15,8 +15,8 @@ The workflow includes:
 
 - Python (Pandas, NumPy)
 - Matplotlib & Seaborn (Exploratory Data Analysis)
-- MySQL
 - SQLAlchemy (with PyMySQL)
+-  MySQL
 - Power BI
 - DAX
 
